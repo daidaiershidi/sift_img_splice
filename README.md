@@ -1,4 +1,4 @@
-# sift_img_splice
+# sift_img_splice（全景图片拼接）
 Python实现（包括卷积缩放等），拼接用opencv，DUT图像处理基础大作业
 
 
