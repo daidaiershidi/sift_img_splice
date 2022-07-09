@@ -1,4 +1,25 @@
-# sift_img_splice（全景图片拼接）
+# 全景图片拼接
+
+```
+import imageio
+# 读取拼接图片
+imageA = imageio.imread("11.jpg")
+imageB = imageio.imread("22.jpg")
+
+imageA = cv2.resize(imageA, (256, 256))
+imageB = cv2.resize(imageB, (256, 256))
+
+tools.ShowPict(imageA)
+tools.ShowPict(imageB)
+
+# 把图片拼接成全景图
+stitcher = Stitcher()
+(result, vis) = stitcher.stitch([imageA, imageB], showMatches=True)
+
+tools.ShowPict(vis)
+tools.ShowPict(result)
+```
+
 Python实现（包括卷积缩放等），拼接用opencv，DUT图像处理基础大作业
 
 
