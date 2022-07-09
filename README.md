@@ -1,5 +1,5 @@
 # 不调用api，代码实现sift算子，并进行全景图片拼接
-流程与opencv的sift.cpp大致一样
+流程与opencv的sift.cpp大致一样，但不调用api，图片滤波、HOG、图片缩放等均用Python底层实现
 
 ```
 import imageio
