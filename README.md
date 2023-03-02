@@ -23,7 +23,7 @@ tools.ShowPict(result)
 
 # 报告内容
 
-Python实现（包括卷积缩放等），拼接用opencv，DUT图像处理基础大作业
+Python实现sift（包括滤波缩放等），拼接用opencv，DUT图像处理基础大作业
 
 
 ## SIFT概述
